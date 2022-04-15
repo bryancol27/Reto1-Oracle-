@@ -1,0 +1,31 @@
+@media (min-width: 768px){
+    .section-1--form{
+        margin: 152px 40px 0;
+        width: 688px;
+    }
+    #textAreaUser{
+        font-size: 2rem;
+    }
+    .section-1--button-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 16px;
+        gap: 16px;
+    }
+    .section-1--button-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 0 16px;
+        gap: 16px;
+    }
+    .section-1--button-container button{
+        width: 332px;
+    }
+
+    .main--section-2{
+        margin: 0 40px;
+        width: 688px;
+    }
+}

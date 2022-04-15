@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+:root{
+    --color-principal: #FF5050;
+    --color-secundario: #FF8A8A;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: linear-gradient(to bottom, #ff5050, #ff605f, #ff6f6e, #ff7d7c, #ff8a8a)
+}
+main{
+    padding-bottom: 20px;
+    height: auto;
+}
+.main--section-1{
+    margin-bottom: 50px;
+}
+.section-1--logo{
+    position: absolute;
+    top: 24px;
+    left: 16px;
+    display: flex;
+}
+.section-1--logo figcaption{
+    font-size: 2rem;
+}
+.section-1--form{
+    background-color: #fff;
+    margin: 152px 16px 0;
+    padding: 10px 0;
+    border-radius: 14px;
+    width: 342px;
+    height: auto;
+}
+#textAreaUser{
+    width: 100%;
+    border: none;
+    background-color: none;
+    padding: 5px;
+    font-size: 25px;
+    line-height: 42px;
+    color: var(--color-secundario);
+}
+#textAreaUser::placeholder{
+    color: var(--color-secundario);
+}
+.section-1--button-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    gap: 16px;
+}
+.section-1--button-container button{
+    height: 67px;
+    border: none;
+    border-radius: 24px; 
+    font-weight: bold;
+    font-size: 2rem;
+
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.section-1--button-container button:nth-child(1){
+    background-color: var(--color-principal);
+    border: 2px solid transparent;
+    color: white;
+}
+.section-1--button-container button:nth-child(1):hover{
+    background-color: #fff;
+    border: 2px solid var(--color-principal);
+    color: var(--color-principal);
+    transform: rotate(2deg);
+}
+.section-1--button-container button:nth-child(2){
+    background-color: #fff;
+    color: var(--color-secundario);
+    border: 2px solid var(--color-secundario);
+}
+.section-1--button-container button:nth-child(2):hover{
+    background-color: var(--color-secundario);
+    color: #fff;
+    transform: rotate(2deg);
+}
+.advertencia span{
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background-image: url('../icons/bi_exclamation-circle-fill.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.advertencia{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.main--section-2{
+    background-color: #fff;
+    margin: 0 16px;
+    padding: 15px 0 5px;
+    border-radius: 14px;
+    width: 342px;
+    height: auto;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.main--section-2 img{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+.main--section-2 h2{
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2.8rem;
+    color: var(--color-principal);
+
+    margin-bottom: 10px;
+}
+.main--section-2 p{
+    color: var(--color-secundario);
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 2.4rem;
+}
+
+.main--section-2 .copyBtn{
+    width: 336px;
+    height: 67px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 24px;
+    border: 2px solid var(--color-principal);
+    color: var(--color-principal);
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    visibility: hidden;
+}
+.main--section-2 .copyBtn:hover{
+    color: #fff;
+    background-color: #FF5050;
+    transform: rotate(2deg);
+}
+
+
+#respuesta{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+#nuevoPlace{
+    visibility: visible;
+    height: 300px;
+    width: 80%;
+    border: none;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: #ff5050;
+}

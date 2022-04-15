@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/table.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <main>
+
+        <!-- Section 1  -->
+        <section class="main--section-1">
+            <figure class="section-1--logo">
+                <img src="./icons/Vector.png" alt="Logo">
+            </figure>
+            <form action="" class="section-1--form">
+                <textarea autocomplete="off" spellcheck="false" name="Input" id="textAreaUser" cols="30" rows="15" placeholder="Ingrese su texto aqui"></textarea> 
+                <div class="Inputs">
+                    <p class="advertencia"><span></span>Solo letras minúsculas y sin acentos</p>
+
+                    <div class="section-1--button-container">
+                        <button type="button" id="Encriptar">Encriptar</button>
+                        <button type="button" id="Desencriptar">Desencriptar</button>
+                    </div>
+
+                </div>
+            </form>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="main--section-2">
+            <textarea id="respuesta" cols="30" rows="10"></textarea>
+            <div class="resultText" id="textoResultado">
+                <img src="./assets/Muñeco.png" alt="personaje con lupa">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees Encriptar o Desencriptar</p>
+            </div>
+            <button type="button" class="copyBtn" id="copyBtn">Copiar</button>
+        </section>     
+        
+        <script defer src="./assets/JavaScript/main.js"></script>
+    </main>
+</body>
+</html>

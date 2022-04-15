@@ -1,0 +1,60 @@
+@media (min-width: 1440px){
+    body{
+        height: 100vh;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-1--form{
+        margin: 40px 0 0;
+        width: 688px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #textAreaUser{
+        font-size: 2.5rem;
+    }
+    .section-1--button-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 16px;
+        gap: 16px;
+    }
+    .section-1--button-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 0 16px;
+        gap: 16px;
+    }
+    .section-1--button-container button{
+        width: 332px;
+    }
+
+    .main--section-2{
+        margin: 40px 40px;
+        padding: 0;
+        width: 400px;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .main--section-2 img{
+        width: 336px;
+        height: 304px;
+        visibility: visible;
+        margin: 25px;
+    }
+
+    .resultText{
+        width: 100%;
+        padding: 0 20px;
+    }
+}
